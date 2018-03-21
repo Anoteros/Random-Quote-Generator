@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+blockquote {
+	font-family: Georgia, serif;
+	font-size: 18px;
+	font-style: italic;
+	width: 500px;
+	margin: 0.25em 0;
+	padding: 0.25em 40px;
+	line-height: 1.45;
+	position: relative;
+	color: #383838;
+}
+
+blockquote:before {
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -5px;
+	top: -15px;
+	color: #7a7a7a;
+}
+
+blockquote cite {
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+
+
+
+.container {
+	padding: 25px;
+	margin: 0 auto;
+	margin-top: 25%;
+	border: 1px solid black;
+	width: 40%;
+	text-align: center;
+	vertical-align: middle;
+	background-color: white;
+	border-radius: 15px 50px;
+
+
+}
+
+.quote {
+	margin-left: auto;
+  	margin-right: auto;
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.author {
+	 margin-left: auto;
+	 margin-right: auto;
+	 position: relative;
+	 top: 50%;
+	 transform: translateY(-50%);
+}
+
+#tweetImg {
+	height: 30px;
+	width: 30px;
+	margin-top: -15px;
+}
+
+#tweetContainer {
+	float: right;
+
+}
